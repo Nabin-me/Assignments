@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Gajraj+One&family=Inter:wght@400;800&display=swap');
 
-section{
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section {
     height: 100vh;
     width: 100vw;
 }
 
-#quote1{
+#quote1 {
     background-color: #BFDBF7;
     display: flex;
     flex-direction: column;
@@ -13,7 +19,7 @@ section{
     align-items: center;
 }
 
-p{
+p {
     background-color: #F4F4FF;
     width: 300px;
     height: 340px;
@@ -23,16 +29,16 @@ p{
     /* filter: drop-shadow(0px 5px 20px grey); */
 }
 
-span:nth-child(1){
+span:nth-child(1) {
     display: block;
     font-family: 'Big Shoulders Display', cursive;
     font-size: 5rem;
     text-transform: uppercase;
-    text-align: center;    
+    text-align: center;
     color: #F71752;
 }
 
-span:nth-child(2){
+span:nth-child(2) {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -42,23 +48,23 @@ span:nth-child(2){
     font-size: 2.5rem;
     font-weight: 800;
     text-transform: uppercase;
-    text-align: center;    
+    text-align: center;
     color: #1E205B;
     border-top: 3px dashed lightcoral;
     border-bottom: 3px dashed lightcoral;
 }
 
-span:nth-child(3){
+span:nth-child(3) {
     display: block;
     padding-top: 10px;
     font-family: 'Big Shoulders Display', cursive;
     font-size: 6.5rem;
     text-transform: uppercase;
-    text-align: center;    
+    text-align: center;
     color: #F71752;
 }
 
-span:nth-child(4){
+span:nth-child(4) {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -69,7 +75,7 @@ span:nth-child(4){
     font-weight: 800;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 7px;    
+    letter-spacing: 7px;
     color: white;
     background-color: #1E205B;
 }
@@ -82,3 +88,18 @@ span:nth-child(4){
     color: white;
     border-radius: 0px 15px 15px 15px;
 }
+
+
+#quote2 {
+    background-color: #CCEDAC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-sign {
+    color: #F53100;
+    font-size: 5rem;
+}
+
