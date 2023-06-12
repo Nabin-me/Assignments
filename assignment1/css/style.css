@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Gajraj+One&family=Inter:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Gajraj+One&family=Gemunu+Libre&family=Inter:wght@400;800&family=Montagu+Slab:wght@400;500&family=New+Rocker&family=Ribeye&display=swap');
 
 body {
     display: flex;
@@ -99,7 +99,88 @@ span:nth-child(4) {
 }
 
 .quote-sign {
-    color: #F53100;
-    font-size: 5rem;
+    width: 4rem;
+    margin-left: -300px;
+    display: block;
+    transform: matrix(0.99, -0.1, 0, 1, 0, 0);
+}
+#inverted{
+    margin-left: 300px;
+    rotate: 180deg;
+}
+#quote2 p {
+    background-color: #011920;
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 0;
+    transform: matrix(0.99, -0.1, 0, 1, 0, 0);
 }
 
+#quote2 span:nth-child(1) {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: 'Ribeye', cursive;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    text-align: center;
+    color: #CCEDAC;
+}
+
+#quote2 span:nth-child(2) {
+    display: inline-block;
+    width: max-content;
+    font-family: 'Montagu Slab', serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: lowercase;
+    text-align: center;
+    color: #CCEDAC;
+    border: none;
+}
+
+#quote2 span:nth-child(3) {
+    display: block;
+    padding-top: 10px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    text-align: center;
+    color: #CCEDAC;
+}
+
+#quote2 span:nth-child(4) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    font-family: 'New Rocker', cursive;
+    font-size: 3rem;
+    letter-spacing: normal;
+    background-color: transparent;
+    text-transform: lowercase;
+    text-align: center;
+    color: #CCEDAC;
+}
+
+#quote2 span:nth-child(5) {
+    display: block;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    text-align: center;
+    color: #CCEDAC;
+}
+
+.quote2-author {
+    margin-top: 30px;
+    margin-right: -180px;
+    padding: 10px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 1.2rem;
+    background-color: #011920;
+    color: white;
+    border-radius: 0px 15px 15px 15px;
+    transform: matrix(0.99, -0.1, 0, 1, 0, 0);
+}
