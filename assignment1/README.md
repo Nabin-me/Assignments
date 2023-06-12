@@ -1,6 +1,4 @@
-# Typography Assignment
+# Typography Assignment 📝
 
-## Description
-This is my assignment for the Quote Typography Assignment for INM120SBB. In this project, the following was used:
-- HTML
-- CSS
+My submission for the typography assignment (INM120SBB). In this assignment, we were asked to create creative quote using HTML & CSS while also applying design principles that we learnt in other classes. 
+
