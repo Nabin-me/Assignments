@@ -1,16 +1,29 @@
+/* ========================================
+   CSS File Contents
+   ======================================== */
+
+/* Google Fonts */
+/* ======================== */
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Gajraj+One&family=Gemunu+Libre&family=Inter:wght@400;800&family=Montagu+Slab:wght@400;500&family=New+Rocker&family=Ribeye&display=swap');
 
+/* Page layout */
+/* ========== */
 body {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
+
+/* Sections Sizing */
+/* ======= */
 section {
     height: 100vh;
     width: 100vw;
 }
 
+/* Layout Styling for Quote 1 */
+/* ======= */
 #quote1 {
     background-color: #BFDBF7;
     display: flex;
@@ -19,6 +32,8 @@ section {
     align-items: center;
 }
 
+/* Box Styling For Quote 1 */
+/* =========== */
 p {
     background-color: #F4F4FF;
     width: 300px;
@@ -28,6 +43,8 @@ p {
     padding: 20px;
 }
 
+/* Span Tags & Auther Name Banner Styling */
+/* ====== */
 span:nth-child(1) {
     display: block;
     font-family: 'Big Shoulders Display', cursive;
@@ -88,7 +105,8 @@ span:nth-child(4) {
     border-radius: 0px 15px 15px 15px;
 }
 
-
+/* Styling and layout for Quote 2 */
+/* ======== */
 #quote2 {
     background-color: #CCEDAC;
     display: flex;
@@ -97,16 +115,22 @@ span:nth-child(4) {
     align-items: center;
 }
 
+/* Styling for the Quote Icons */
+/* ========== */
 .quote-sign {
     width: 4rem;
     margin-left: -300px;
     display: block;
     transform: matrix(0.99, -0.1, 0, 1, 0, 0);
 }
-#inverted{
+
+#inverted {
     margin-left: 300px;
     rotate: 180deg;
 }
+
+/* Background box styling for Quote 2*/
+/* ============== */
 #quote2 p {
     background-color: #011920;
     width: 300px;
@@ -117,10 +141,11 @@ span:nth-child(4) {
     transform: matrix(0.99, -0.1, 0, 1, 0, 0);
 }
 
+/* Span tags and Author Banner Styling for Quote 2 */
+/* =============== */
 #quote2 span:nth-child(1) {
     display: inline-block;
-    margin-left: 15px;
-    margin-top: 10px;
+    margin: auto;
     font-family: 'Ribeye', cursive;
     font-size: 2.5rem;
     text-transform: lowercase;
@@ -131,18 +156,20 @@ span:nth-child(4) {
 #quote2 span:nth-child(2) {
     display: inline-block;
     width: max-content;
+    margin: auto;
     font-family: 'Montagu Slab', serif;
     font-size: 2.5rem;
     font-weight: 800;
     text-transform: lowercase;
     text-align: center;
     color: #CCEDAC;
-    border-top: 2px solid #CCEDAC;
-    border-bottom: 2px solid #CCEDAC;
+    border-top: 2px dotted #CCEDAC;
+    border-bottom: 2px dotted #CCEDAC;
 }
 
 #quote2 span:nth-child(3) {
     display: block;
+    margin: auto;
     padding-top: 10px;
     font-family: 'Gemunu Libre', sans-serif;
     font-size: 2.5rem;
@@ -153,8 +180,7 @@ span:nth-child(4) {
 
 #quote2 span:nth-child(4) {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 300px;
     font-family: 'New Rocker', cursive;
     font-size: 3rem;
@@ -167,32 +193,37 @@ span:nth-child(4) {
 
 #quote2 span:nth-child(5) {
     display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Gemunu Libre', sans-serif;
     font-size: 2.5rem;
     text-transform: lowercase;
     text-align: center;
     padding-bottom: 5px;
-    border-bottom: 3px dotted #CCEDAC;
+    border-bottom: 3px solid #CCEDAC;
     color: #CCEDAC;
 }
 
 .quote2-author {
-    margin-top: 30px;
-    margin-right: -180px;
+    margin-top: -90px;
+    margin-right: -200px;
     padding: 10px;
     font-family: 'Gemunu Libre', sans-serif;
     font-size: 1.2rem;
-    background-color: #011920;
+    background-color: #F53100;
     color: white;
     border-radius: 0;
     border: 0;
     transform: matrix(0.99, -0.1, 0, 1, 0, 0);
 }
 
-.info-banner{
+/* Bottom info (Github) Banner */
+/* =============== */
+.info-banner {
     z-index: 1000;
     position: absolute;
-    top:90%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: max-content;
@@ -201,8 +232,19 @@ span:nth-child(4) {
     font-family: 'Inter', sans-serif;
     padding: 10px;
 }
-.info-banner a{
+
+.info-banner a {
     font-weight: bold;
     text-decoration: none;
     color: #F71752;
 }
+.info-banner a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+/*  */
+/* ============= */
+
+/* ========================================
+   End of CSS File
+   ======================================== *
